@@ -1,0 +1,55 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  width: 1280px;
+}
+
+.nav-row {
+  background: black;
+}
+
+.header-content {
+  background-image: url("../img/header-img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.blog-row {
+  background: tan;
+  margin: 0 50px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 0 10px black;
+  padding: 25px 0;
+}
+
+.item {
+  background: white;
+  margin: 50px;
+  box-shadow: 2px 0 10px black;
+}
+
+aside {
+  background: grey;
+  box-shadow: 2px 0 10px black;
+}
+
+footer {
+  background: black;
+  color: white;
+}
