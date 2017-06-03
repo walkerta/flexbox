@@ -15,9 +15,50 @@
 body {
   width: 1280px;
 }
+/* DON'T EDIT ANY STYLES ABOVE THIS LINE! */
+
+main {
+  background: tan;
+  margin: 50px;
+  margin-top: -50px;
+  box-shadow: 2px 0 10px black;
+  padding: 25px 0;
+}
 
 .nav-row {
+  padding: 20px;
   background: black;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-family: Josefin Sans;
+}
+
+.item {
+}
+
+.icon-wrapper {
+  padding: 10px;
+  margin-top: -50px;
+}
+
+.entry-title {
+  margin-left: 20px;
+}
+
+.icon-wrapper  i {
+  background-color: tan;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.meta {
+  margin: 20px;
+  border-bottom: 2px solid tan;
+  padding-bottom: 20px;
+  order: -1;
 }
 
 .header-content {
@@ -27,16 +68,22 @@ body {
   background-position: center;
   background-size: cover;
   height: 500px;
+  margin: auto;
 }
 
-.blog-row {
-  background: tan;
-  margin: 0 50px;
-  margin-top: -50px;
-  margin-bottom: 50px;
-  box-shadow: 2px 0 10px black;
-  padding: 25px 0;
+.main-heading {
+  font-family: "Josefin Sans";
+  font-size: 100px;
 }
+
+.sub-heading {
+  font-family: "Dancing Script";
+  font-size: 50px;
+  color: white;
+  margin-top: -40px;
+  text-shadow: 2px 0 10px black;
+}
+
 
 .item {
   background: white;
@@ -47,9 +94,29 @@ body {
 aside {
   background: grey;
   box-shadow: 2px 0 10px black;
+  margin-right: 50px;
+  max-height: 75%  ;
 }
 
 footer {
   background: black;
   color: white;
+}
+
+.aside-heading {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.primary-txt {
+  padding: 20px;
+}
+
+.auth-pic {
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-size: contain;
+  background-image: url("../img/author.jpeg");
 }
