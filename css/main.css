@@ -26,8 +26,11 @@ main {
 }
 
 .nav-row {
+  display:flex;
   padding: 20px;
   background: black;
+  justify-content: space-around;
+
 }
 
 .nav-item a {
