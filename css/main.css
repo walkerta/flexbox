@@ -15,6 +15,8 @@
 body {
   width: 1280px;
 }
+
+
 /* DON'T EDIT ANY STYLES ABOVE THIS LINE! */
 
 main {
@@ -24,14 +26,15 @@ main {
   box-shadow: 2px 0 10px black;
   padding: 25px 0;
   display: flex;
+
 }
 
+
 .nav-row {
-  display:flex;
+  display: flex;
   padding: 20px;
   background: black;
   justify-content: space-around;
-
 }
 
 .nav-item a {
@@ -41,21 +44,28 @@ main {
 }
 
 .item {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .icon-wrapper {
   padding: 10px;
   margin-top: -50px;
+  justify-content: center;
+  align-self: center;
 }
 
 .entry-title {
   margin-left: 20px;
 }
 
-.icon-wrapper  i {
+.icon-wrapper i {
   background-color: tan;
   border-radius: 100%;
   padding: 10px;
+  justify-content: center;
 }
 
 .meta {
@@ -63,6 +73,8 @@ main {
   border-bottom: 2px solid tan;
   padding-bottom: 20px;
   order: -1;
+  align-self: stretch;
+  justify-content: space-around;
 }
 
 .header-content {
@@ -77,13 +89,11 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
 .main-heading {
   font-family: "Josefin Sans";
   font-size: 100px;
-
 }
 
 .sub-heading {
@@ -94,18 +104,18 @@ main {
   text-shadow: 2px 0 10px black;
 }
 
-
 .item {
   background: white;
   margin: 50px;
   box-shadow: 2px 0 10px black;
 }
 
+}
 aside {
   background: grey;
   box-shadow: 2px 0 10px black;
   margin-right: 50px;
-  max-height: 75%  ;
+  max-height: 75%;
 }
 
 footer {
